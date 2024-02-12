@@ -16,6 +16,7 @@ if (!empty($_POST)) {
 
     // Insert Operation
     $sql = mysqli_query($auth, "INSERT INTO students(hash_code,full_name,email,gender,dob,address,password,time,date) VALUES('$hash','$fname','$em','$gen','$dob','$add','$pass','$time','$date')");
+    
     if ($sql) {
         $status = "1";
     } else {
