@@ -17,12 +17,15 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="academic-details.php">Academic Details</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="all-users.php">All Users</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
                             <li><a class="dropdown-item" href="logout.php">Logout</a></li>
                         </ul>
+                    </li>
+                    <li class="nav-link">
+                    Last Updated on <?php echo $lastUpdate;?>
                     </li>
                 <?php } else { ?> 
                     <li class="nav-item">
